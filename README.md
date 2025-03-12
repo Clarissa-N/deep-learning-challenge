@@ -30,9 +30,9 @@
 
   - **Neurons and Layers:** There are 3 hidden layers. The first has 25 neurons and the second and third both have 16 neurons.
 
-  - **Activation Functions:** The ReLU activation function was used in the hidden layers which allows the model to learn non-linear patterns in the data. The output layer uses a sigmoid activation functionc, which is great for binary classification as it outputs a probability score between 0 and 1.
+  - **Activation Functions:** The ReLU activation function was used in the hidden layers which allows the model to learn non-linear patterns in the data. The output layer uses a sigmoid activation function, which is great for binary classification as it outputs a probability score between 0 and 1.
 
-  - **Justification:** After working through various optimations, this model of three hidden layers with 25 and 16 neurons was able to provide the best results. These specific activation funcitons were also chosen to help provide faster training and to reduce the likelihood of vanishing gradients.
+  - **Justification:** After working through various optimizations, this model of three hidden layers with 25 and 16 neurons was able to provide the best results. These specific activation funcitons were also chosen to help provide faster training and to reduce the likelihood of vanishing gradients.
  
 **Model Performance:**
   - **Loss:** 0.56

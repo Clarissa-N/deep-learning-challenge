@@ -9,7 +9,7 @@
 
 ## Overview
 
-  The purpose of this analysis is to creat a model using machine learning, specifically deep learning, to predict whether an organization's application will be successful.The dataset contains records from organizations that recieved funding from Alphabet Soup, with features that also provide metadata about each organization.The target variable `IS_SUCCESSFUL` indicated whether the funding was used effectively (successful) or not (unsuccessful). The goal was to use all this information to train a neural network that can predict the success of future applications.
+  The purpose of this analysis was to create a model using machine learning, specifically deep learning, to predict whether an organization's application will be successful. The dataset contains records from organizations that recieved funding from Alphabet Soup, with features that also provide metadata about each organization. The target variable `IS_SUCCESSFUL` indicated whether the funding was used effectively (successful) or not (unsuccessful). The goal was to use all this information to train a neural network that can predict the success of future applications.
 
 ## Results
 

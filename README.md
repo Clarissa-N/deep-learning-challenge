@@ -19,10 +19,10 @@
     - The target variable for the model is `IS_SUCCESSFUL`, which is a binary variable that indicates whether the application for funding was successful(1) or not(0).
 
   - **Feature Variables:**
-    - The inputs used by the model include columns such as APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT, among others. These features capture metadata about each organization and their application.
+    - The inputs used by the model include columns such as `APPLICATION_TYPE`, `AFFILIATION`, `CLASSIFICATION`, `USE_CASE`, `ORGANIZATION`, `STATUS`, `INCOME_AMT`, `SPECIAL_CONSIDERATIONS`, `ASK_AMT`, among others. These features capture metadata about each organization and their application.
 
   - **Variables to Remove:**
-    - EIN and NAME were removed from the input data as they are identification columns that do not provide predictive value for the classification task.
+    - `EIN` and `NAME` were removed from the input data as they are identification columns that do not provide predictive value for the classification task.
 
 **Compiling, Training, and Evaluating the Model**
 
